@@ -3,7 +3,6 @@ from sqlalchemy import BigInteger, Boolean, Column, \
     Integer, LargeBinary, Numeric, \
     SmallInteger, String, Table, \
     UniqueConstraint, text, Text
-
 from sqlalchemy.orm import relationship
 from sqlalchemy.dialects.postgresql import JSONB
 from sqlalchemy.ext.declarative import declarative_base
